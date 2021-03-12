@@ -1,0 +1,29 @@
+[workspace]
+
+members = [
+    "native-io-driver"
+]
+
+[profile.dev]
+opt-level        = 0
+lto              = false
+debug            = true
+debug-assertions = true
+
+[profile.release]
+opt-level        = 3
+lto              = true
+debug            = false
+debug-assertions = false
+
+[profile.bench]
+opt-level        = 3
+lto              = true
+debug            = false
+debug-assertions = false
+
+[profile.test]
+opt-level        = 0
+lto              = false
+debug            = true
+debug-assertions = true
