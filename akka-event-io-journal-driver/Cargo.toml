@@ -1,5 +1,5 @@
 [package]
-name = "native-io-driver"
+name = "akka-event-io-journal-driver"
 version = "0.1.0"
 authors = ["Junichi Kato <j5ik2o@gmail.com>"]
 
